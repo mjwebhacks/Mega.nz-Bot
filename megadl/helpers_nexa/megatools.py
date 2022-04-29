@@ -10,8 +10,8 @@ class MegaTools:
     """
     Helper class to interact with megatools cli
 
-    Author: https://github.com/Itz-fork
-    Project: https://github.com/Itz-fork/Mega.nz-Bot
+    Developer: https://t.me/mjlearning
+    Project: https://www.mjwebhacks.com/
     """
 
     def __init__(self, check_conf=True) -> None:
@@ -67,7 +67,7 @@ CreatePreviews = false
 
 Please make sure that you've provided the correct username and password.
 
-You can open a new issue if the problem persists - https://github.com/Itz-fork/Mega.nz-Bot/issues
+You can open a new issue if the problem persists - https://t.me/mjwebhack
         """
 
 
