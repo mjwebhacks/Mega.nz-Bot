@@ -44,7 +44,7 @@ async def progress_for_pyrogram(
         )
         try:
             await message.edit(
-                text="{}\n {} \n\n**Powered by @NexaBotsUpdates**".format(
+                text="{}\n {} \n\n**Powered by @MJWebHack**".format(
                     ud_type,
                     tmp
                 )
@@ -89,7 +89,7 @@ def check_logs():
         elif c.username is not None:
             return print(ERROR_TEXT.format("Chat is not private"))
         else:
-            client.send_message(chat_id=Config.LOGS_CHANNEL, text="`Mega.nz-Bot has Successfully Started!` \n\n**Powered by @NexaBotsUpdates**")
+            client.send_message(chat_id=Config.LOGS_CHANNEL, text="`Mega.nz-Bot has Successfully Started!` \n\n**Powered by @MJWebHack**")
     else:
         print("No Log Channel ID is Given. Anyway I'm Trying to Start!")
         pass
