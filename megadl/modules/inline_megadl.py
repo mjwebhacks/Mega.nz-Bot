@@ -22,10 +22,10 @@ async def inline_megadl(client, query):
         megadl_q = query.query.strip().lower()
         if megadl_q.strip() == "":
             aboutinlinemsg = """
-            ✪ **[Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot)**
-`A Simple ` [Open Source](https://github.com/Itz-fork/Mega.nz-Bot)` Telegram Bot to Do `[More](https://github.com/Itz-fork/Mega.nz-Bot#features)` with Mega.nz Cloud Storage.`
+            ✪ **[Mega.nz-Bot](https://t.me/mjmegabot)**
+`A Simple ` [Open Source](https://t.me/mjmegabot)` Telegram Bot to Do `[More](https://t.me/mjwebhack)` with Mega.nz Cloud Storage.`
                 
-**Developed with ❤️ by [Itz-fork](https://github.com/Itz-fork)**
+**Developed with ❤️ by [MJLearning](https://t.me/mjlearning)**
 """
             helpinlinemsg = """
 **Hey, Choose the help mod using below buttons 😇**
@@ -101,7 +101,7 @@ async def inline_megadl(client, query):
 **File Size:** `{readable_f_size}`
 **Url:** {url}
 
-**Powered by @NexaBotsUpdates**
+**Powered by @MJWebHack**
 """
             d_inline_keyborad = [InlineKeyboardButton("PM Mega.nz-Bot", url=f"https://t.me/{(await client.get_me()).username}")]
             inline_down_butotns.append(d_inline_keyborad)
